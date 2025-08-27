@@ -21,6 +21,12 @@ A comprehensive database with 20,000 motorcycle entries including:
 ### TaiwanMotor.json
 Original smaller database with curated motorcycle data organized by categories.
 
+### generate_motorcycle_database.py
+Python script that generates the comprehensive motorcycle database. Run this script to create or regenerate the `complete_motorcycle_database.json` file with 20,000 realistic motorcycle entries.
+
+### example_usage.py
+Example script demonstrating how to load and use the motorcycle database for various analysis and filtering tasks.
+
 ## Database Structure
 
 Each motorcycle entry follows this structure:
@@ -41,6 +47,12 @@ Each motorcycle entry follows this structure:
 ```
 
 ## Usage
+
+### Running the Generator
+To generate a fresh database with 20,000 motorcycle entries:
+```bash
+python3 generate_motorcycle_database.py
+```
 
 ### Loading the Database
 ```python
@@ -64,6 +76,12 @@ small_bikes = [m for m in motorcycles if '125cc' in m['engine']['displacement']]
 
 # Filter by type
 scooters = [m for m in motorcycles if 'Scooter' in m['type']]
+```
+
+### Running Examples
+To see database analysis and usage examples:
+```bash
+python3 example_usage.py
 ```
 
 ## Data Generation
