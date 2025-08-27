@@ -1,0 +1,264 @@
+{
+  "title": "Taiwan Specific Motorcycle Database",
+  "description": "Curated database of specific motorcycle models popular in Taiwan",
+  "last_updated": "2024-08-27",
+  "total_entries": 13,
+  "motorcycles": [
+    {
+      "brand": "SYM",
+      "model": "全新迪爵125",
+      "model_english": "New Duke 125",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.8 hp"
+      },
+      "features": [
+        "LED headlight",
+        "Digital display",
+        "Under-seat storage",
+        "CBS system",
+        "Fuel efficient"
+      ],
+      "price_range": "NT$ 72,000 - 78,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "JET SL+ 158",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "158cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "12.5 hp"
+      },
+      "features": [
+        "LED lighting system",
+        "ABS braking",
+        "Digital dashboard",
+        "Smart key",
+        "Large storage compartment"
+      ],
+      "price_range": "NT$ 95,000 - 105,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Jog 125",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "8.9 hp"
+      },
+      "features": [
+        "Lightweight design",
+        "Fuel efficient",
+        "Easy handling",
+        "Compact storage",
+        "Reliable engine"
+      ],
+      "price_range": "NT$ 68,000 - 75,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "迪爵125",
+      "model_english": "Duke 125",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.5 hp"
+      },
+      "features": [
+        "Classic design",
+        "Under-seat storage",
+        "Front disc brake",
+        "Digital speedometer",
+        "Economic fuel consumption"
+      ],
+      "price_range": "NT$ 65,000 - 72,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "大地名流125",
+      "model_english": "People 125",
+      "type": "Classic Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.2 hp"
+      },
+      "features": [
+        "Retro styling",
+        "Comfortable seating",
+        "Large storage space",
+        "CBS system",
+        "Easy maintenance"
+      ],
+      "price_range": "NT$ 70,000 - 77,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "大地名流150",
+      "model_english": "People 150",
+      "type": "Classic Scooter",
+      "engine": {
+        "displacement": "150cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "11.8 hp"
+      },
+      "features": [
+        "Retro styling",
+        "Enhanced power",
+        "Large storage space",
+        "CBS system",
+        "Comfortable ergonomics"
+      ],
+      "price_range": "NT$ 85,000 - 92,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "Woo 115",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "115cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "8.3 hp"
+      },
+      "features": [
+        "Lightweight design",
+        "Sporty appearance",
+        "Fuel efficient",
+        "Easy handling",
+        "Front disc brake"
+      ],
+      "price_range": "NT$ 58,000 - 65,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "活力125",
+      "model_english": "Vivo 125",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.0 hp"
+      },
+      "features": [
+        "Sporty design",
+        "Under-seat storage",
+        "Front disc brake",
+        "Digital display",
+        "Anti-theft system"
+      ],
+      "price_range": "NT$ 62,000 - 69,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "GP 125",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.6 hp"
+      },
+      "features": [
+        "Racing inspired design",
+        "Sport suspension",
+        "Digital dashboard",
+        "LED lighting",
+        "Performance oriented"
+      ],
+      "price_range": "NT$ 75,000 - 82,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "CLBCU 125",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.3 hp"
+      },
+      "features": [
+        "Modern design",
+        "LED headlight",
+        "Under-seat storage",
+        "CBS system",
+        "Fuel efficient"
+      ],
+      "price_range": "NT$ 68,000 - 75,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "新豪邁125",
+      "model_english": "New Heroism 125",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.4 hp"
+      },
+      "features": [
+        "Classic styling",
+        "Comfortable ride",
+        "Large storage",
+        "CBS system",
+        "Economic operation"
+      ],
+      "price_range": "NT$ 65,000 - 72,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "GOGORO",
+      "model": "2 Series",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Permanent magnet synchronous motor",
+        "power": "6.4 kW (8.6 hp)"
+      },
+      "features": [
+        "Smart connectivity",
+        "Battery swapping system",
+        "Zero emissions",
+        "Digital dashboard",
+        "Mobile app integration",
+        "Regenerative braking"
+      ],
+      "price_range": "NT$ 110,000 - 130,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Yamaha",
+      "model": "勁戰",
+      "model_english": "Force 155",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "155cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "15.4 hp"
+      },
+      "features": [
+        "VVA (Variable Valve Actuation)",
+        "LED lighting",
+        "Smart key",
+        "Digital display",
+        "ABS system",
+        "Racing heritage"
+      ],
+      "price_range": "NT$ 105,000 - 115,000",
+      "availability": "Available"
+    }
+  ]
+}
