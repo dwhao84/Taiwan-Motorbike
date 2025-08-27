@@ -1,8 +1,8 @@
 {
   "title": "Taiwan Specific Motorcycle Database",
   "description": "Curated database of specific motorcycle models popular in Taiwan",
-  "last_updated": "2024-12-19",
-  "total_entries": 33,
+  "last_updated": "2025-08-27",
+  "total_entries": 37,
   "motorcycles": [
     {
       "brand": "SYM",
@@ -660,6 +660,86 @@
         "Premium features"
       ],
       "price_range": "NT$ 140,000 - 155,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "MMBCU",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "158cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "12.8 hp"
+      },
+      "features": [
+        "ABS braking system",
+        "TCS (Traction Control System)",
+        "LED lighting system",
+        "Digital dashboard",
+        "Smart key system",
+        "Sport suspension"
+      ],
+      "price_range": "NT$ 102,000 - 112,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Yamaha",
+      "model": "Augur 155",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "155cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "15.2 hp"
+      },
+      "features": [
+        "VVA (Variable Valve Actuation)",
+        "ABS braking system",
+        "TCS (Traction Control System)",
+        "Smart connectivity features",
+        "LED lighting system",
+        "Digital display"
+      ],
+      "price_range": "NT$ 118,000 - 128,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "KRV 180",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "175cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "14.5 hp"
+      },
+      "features": [
+        "PTM system (Powered by Technology & Motion)",
+        "ABS braking system",
+        "TCS (Traction Control System)",
+        "LED lighting system",
+        "Digital dashboard",
+        "Sport ergonomics"
+      ],
+      "price_range": "NT$ 125,000 - 135,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "GOGORO",
+      "model": "Delight",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Permanent magnet synchronous motor",
+        "power": "6.0 kW (8.0 hp)"
+      },
+      "features": [
+        "Battery swapping system",
+        "Female-focused design",
+        "Smart connectivity",
+        "Mobile app integration",
+        "Zero emissions",
+        "Compact and lightweight"
+      ],
+      "price_range": "NT$ 88,000 - 98,000",
       "availability": "Available"
     }
   ]
