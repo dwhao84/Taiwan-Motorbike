@@ -1,1 +1,271 @@
-
+{
+  "title": "Taiwan Motorcycle Database",
+  "description": "Comprehensive database of motorcycles popular in Taiwan",
+  "last_updated": "2024-08-27",
+  "categories": {
+    "scooters": {
+      "description": "Popular scooters in Taiwan",
+      "models": [
+        {
+          "brand": "Yamaha",
+          "model": "Vino 125",
+          "type": "Classic Scooter",
+          "engine": {
+            "displacement": "125cc",
+            "type": "4-stroke, air-cooled",
+            "power": "8.2 hp"
+          },
+          "features": ["Retro styling", "Fuel efficient", "Automatic transmission"],
+          "price_range": "NT$ 80,000 - 90,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "Honda",
+          "model": "PCX 150",
+          "type": "Sport Scooter",
+          "engine": {
+            "displacement": "150cc",
+            "type": "4-stroke, liquid-cooled",
+            "power": "13.2 hp"
+          },
+          "features": ["LED lighting", "Smart key", "Large storage space"],
+          "price_range": "NT$ 110,000 - 120,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "SYM",
+          "model": "Jet 14 125",
+          "type": "Sport Scooter",
+          "engine": {
+            "displacement": "125cc",
+            "type": "4-stroke, air-cooled",
+            "power": "9.3 hp"
+          },
+          "features": ["Sporty design", "ABS braking", "Digital display"],
+          "price_range": "NT$ 85,000 - 95,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "Kymco",
+          "model": "Racing S 150",
+          "type": "Sport Scooter",
+          "engine": {
+            "displacement": "150cc",
+            "type": "4-stroke, liquid-cooled",
+            "power": "12.9 hp"
+          },
+          "features": ["Racing-inspired design", "LED headlight", "USB charging port"],
+          "price_range": "NT$ 100,000 - 110,000",
+          "availability": "Available"
+        }
+      ]
+    },
+    "motorcycles": {
+      "description": "Traditional motorcycles and sport bikes",
+      "models": [
+        {
+          "brand": "Yamaha",
+          "model": "YZF-R3",
+          "type": "Sport Bike",
+          "engine": {
+            "displacement": "321cc",
+            "type": "4-stroke, liquid-cooled, twin-cylinder",
+            "power": "42 hp"
+          },
+          "features": ["6-speed transmission", "ABS", "Slipper clutch"],
+          "price_range": "NT$ 200,000 - 220,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "Honda",
+          "model": "CB300R",
+          "type": "Naked Bike",
+          "engine": {
+            "displacement": "286cc",
+            "type": "4-stroke, liquid-cooled, single-cylinder",
+            "power": "31 hp"
+          },
+          "features": ["Neo Sports Cafe styling", "LED lighting", "IMU-based ABS"],
+          "price_range": "NT$ 180,000 - 200,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "Kawasaki",
+          "model": "Ninja 400",
+          "type": "Sport Bike",
+          "engine": {
+            "displacement": "399cc",
+            "type": "4-stroke, liquid-cooled, twin-cylinder",
+            "power": "45 hp"
+          },
+          "features": ["Parallel twin engine", "Assist and slipper clutch", "Digital display"],
+          "price_range": "NT$ 230,000 - 250,000",
+          "availability": "Available"
+        }
+      ]
+    },
+    "electric_bikes": {
+      "description": "Electric motorcycles and scooters",
+      "models": [
+        {
+          "brand": "Gogoro",
+          "model": "Viva Mix",
+          "type": "Electric Scooter",
+          "engine": {
+            "type": "Electric motor",
+            "power": "6.4 kW (8.58 hp)",
+            "battery": "Swappable battery system"
+          },
+          "features": ["Smart connectivity", "Battery swapping", "Eco-friendly"],
+          "price_range": "NT$ 70,000 - 80,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "PGO",
+          "model": "Ur1",
+          "type": "Electric Scooter",
+          "engine": {
+            "type": "Electric motor",
+            "power": "7.2 kW (9.65 hp)",
+            "battery": "Removable lithium battery"
+          },
+          "features": ["Removable battery", "Smart dashboard", "Reverse gear"],
+          "price_range": "NT$ 90,000 - 100,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "KYMCO",
+          "model": "iONEX",
+          "type": "Electric Scooter",
+          "engine": {
+            "type": "Electric motor",
+            "power": "7 kW (9.38 hp)",
+            "battery": "Swappable battery system"
+          },
+          "features": ["Battery swapping network", "Connected services", "Fast charging"],
+          "price_range": "NT$ 85,000 - 95,000",
+          "availability": "Available"
+        }
+      ]
+    },
+    "heavy_bikes": {
+      "description": "Large displacement motorcycles (400cc+)",
+      "models": [
+        {
+          "brand": "Yamaha",
+          "model": "MT-07",
+          "type": "Naked Bike",
+          "engine": {
+            "displacement": "689cc",
+            "type": "4-stroke, liquid-cooled, twin-cylinder",
+            "power": "74 hp"
+          },
+          "features": ["CP2 engine", "A&S clutch", "ABS"],
+          "price_range": "NT$ 350,000 - 380,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "Honda",
+          "model": "CB650R",
+          "type": "Naked Bike",
+          "engine": {
+            "displacement": "649cc",
+            "type": "4-stroke, liquid-cooled, inline-4",
+            "power": "95 hp"
+          },
+          "features": ["Inline-4 engine", "Showa suspension", "Honda SELECTABLE TORQUE CONTROL"],
+          "price_range": "NT$ 400,000 - 430,000",
+          "availability": "Available"
+        },
+        {
+          "brand": "Kawasaki",
+          "model": "Z650",
+          "type": "Naked Bike",
+          "engine": {
+            "displacement": "649cc",
+            "type": "4-stroke, liquid-cooled, twin-cylinder",
+            "power": "68 hp"
+          },
+          "features": ["Parallel twin engine", "Trellis frame", "Assist and slipper clutch"],
+          "price_range": "NT$ 320,000 - 350,000",
+          "availability": "Available"
+        }
+      ]
+    }
+  },
+  "popular_brands": {
+    "domestic": [
+      {
+        "name": "SYM",
+        "full_name": "Sanyang Motor Co., Ltd.",
+        "founded": 1954,
+        "headquarters": "Hsinchu, Taiwan",
+        "speciality": "Scooters and motorcycles"
+      },
+      {
+        "name": "Kymco",
+        "full_name": "Kwang Yang Motor Co., Ltd.",
+        "founded": 1963,
+        "headquarters": "Kaohsiung, Taiwan",
+        "speciality": "Scooters and ATVs"
+      },
+      {
+        "name": "PGO",
+        "full_name": "PGO Scooters",
+        "founded": 1964,
+        "headquarters": "Tainan, Taiwan",
+        "speciality": "Scooters and electric vehicles"
+      },
+      {
+        "name": "Gogoro",
+        "full_name": "Gogoro Inc.",
+        "founded": 2011,
+        "headquarters": "Taoyuan, Taiwan",
+        "speciality": "Electric scooters and battery technology"
+      }
+    ],
+    "international": [
+      {
+        "name": "Yamaha",
+        "full_name": "Yamaha Motor Co., Ltd.",
+        "origin": "Japan",
+        "market_presence": "Strong presence in Taiwan with local assembly"
+      },
+      {
+        "name": "Honda",
+        "full_name": "Honda Motor Co., Ltd.",
+        "origin": "Japan",
+        "market_presence": "Popular brand with official dealerships"
+      },
+      {
+        "name": "Kawasaki",
+        "full_name": "Kawasaki Heavy Industries",
+        "origin": "Japan",
+        "market_presence": "Growing presence in sport bike segment"
+      },
+      {
+        "name": "Suzuki",
+        "full_name": "Suzuki Motor Corporation",
+        "origin": "Japan",
+        "market_presence": "Moderate presence in Taiwan market"
+      }
+    ]
+  },
+  "market_info": {
+    "total_registered_motorcycles": "13,800,000+",
+    "popular_categories": ["Scooters (125cc-150cc)", "Electric scooters", "Sport bikes (250cc-400cc)"],
+    "licensing_requirements": {
+      "light_motorcycle": "50cc or less - Light motorcycle license",
+      "ordinary_motorcycle": "50cc-250cc - Ordinary motorcycle license",
+      "heavy_motorcycle": "250cc+ - Heavy motorcycle license"
+    },
+    "fuel_efficiency_standards": "Euro 5 emission standards",
+    "electric_incentives": "Government subsidies available for electric motorcycle purchases"
+  },
+  "notes": [
+    "Prices are approximate and may vary by dealer and model year",
+    "Taiwan has a strong motorcycle culture with high ownership rates",
+    "Electric motorcycles are gaining popularity due to environmental concerns",
+    "Scooters are the most popular type due to urban traffic conditions"
+  ]
+}
