@@ -50,7 +50,7 @@ Each motorcycle entry follows this structure:
 ```json
 {
   "brand": "Honda",
-  "model": "PCX 150",
+  "model": "PCX 150 (2023)",
   "type": "Sport Scooter",
   "engine": {
     "displacement": "150cc",
@@ -62,6 +62,14 @@ Each motorcycle entry follows this structure:
   "availability": "Available"
 }
 ```
+
+### Availability Status
+The database includes realistic availability statuses based on model year:
+- **Available**: Current models (2022-2025)
+- **Limited Availability**: Recent models with limited stock (2018-2021)
+- **Discontinued**: Models no longer in production (2010-2017)
+- **Used Market Only**: Older models available only in used market (2005-2015)
+- **Collector Item**: Classic/vintage models (2000-2009)
 
 ## Usage
 
@@ -147,8 +155,9 @@ The comprehensive database was generated using `generate_motorcycle_database.py`
 - Using appropriate engine displacements for different vehicle types
 - Calculating realistic power outputs based on displacement
 - Generating Taiwan market pricing with brand premiums
-- Including model years from 2020-2024
+- Including model years from 2000-2025 (26 years of comprehensive data)
 - Adding realistic feature sets and variants
+- Implementing availability status based on model year (Available, Discontinued, Limited Availability, Used Market Only, Collector Item)
 
 ## Brand Coverage
 

@@ -81,8 +81,8 @@ FEATURES = {
     'classic': ['Retro styling', 'Classic design', 'Heritage appeal', 'Chrome details', 'Vintage instruments', 'Classic ergonomics', 'Timeless look', 'Traditional controls', 'Classic paint schemes', 'Nostalgic feel']
 }
 
-# Model years
-MODEL_YEARS = list(range(2020, 2025))
+# Model years - Extended from 2000 to 2025 as requested
+MODEL_YEARS = list(range(2000, 2026))
 
 # Variants and special editions
 VARIANTS = ['', 'Special Edition', 'Anniversary', 'ABS', 'Limited', 'Sport', 'Touring', 'Adventure', 'Premium', 'Deluxe', 'SE', 'X', 'S', 'R', 'GT']
@@ -182,6 +182,21 @@ def generate_model_name(brand, displacement, vehicle_type):
     else:
         return f"{model_name} ({year})"
 
+def get_availability_status(model_year):
+    """Determine availability status based on model year"""
+    current_year = 2024
+    
+    if model_year >= 2022:
+        return "Available"
+    elif model_year >= 2018:
+        # Some recent models might still be available as new-old-stock
+        return random.choice(["Available", "Limited Availability", "Discontinued"])
+    elif model_year >= 2010:
+        return random.choice(["Discontinued", "Used Market Only"])
+    else:
+        # Older models from 2000-2009
+        return random.choice(["Discontinued", "Used Market Only", "Collector Item"])
+
 def generate_motorcycle(brand, vehicle_type):
     """Generate a single motorcycle entry"""
     # Get displacement range for vehicle type
@@ -195,6 +210,12 @@ def generate_motorcycle(brand, vehicle_type):
     features = get_features(vehicle_type)
     price_range = calculate_price(brand, displacement, vehicle_type)
     
+    # Extract year from model name to determine availability
+    import re
+    year_match = re.search(r'\((\d{4})\)', model)
+    model_year = int(year_match.group(1)) if year_match else 2024
+    availability = get_availability_status(model_year)
+    
     return {
         "brand": brand,
         "model": model,
@@ -206,7 +227,7 @@ def generate_motorcycle(brand, vehicle_type):
         },
         "features": features,
         "price_range": price_range,
-        "availability": "Available"
+        "availability": availability
     }
 
 def generate_database():
