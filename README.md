@@ -22,18 +22,35 @@ A comprehensive database with 20,000 motorcycle entries including:
 Original smaller database with curated motorcycle data organized by categories.
 
 ### taiwan_specific_motorcycles.json
-Focused database containing 33 specific motorcycle models popular in Taiwan, including:
-- **SYM Models**: 全新迪爵125, JET SL+ 158, 迪爵125, Woo 115, 活力125, CLBCU 125, DRG 158, Jet 14 125, MAXSYM TL 500
-- **Kymco Models**: 大地名流125/150, GP 125, 新豪邁125, Racing S 150, iONEX, AK 550
-- **Yamaha Models**: Jog 125, 勁戰 (Force 155), SMAX 155, YZF-R3, MT-03
-- **Honda Models**: PCX 150, Vino 125, CB300R
-- **GOGORO**: Electric scooter series (2 Series, Viva Mix, 3 Series)
-- **Other Electric**: PGO Ur1, 宏佳騰 Ai-1 Sport
-- **Local Brands**: 光陽 Many 110, 三陽 FNX 125, 比雅久 Tigra 200
-- **Sport Bikes**: Kawasaki Ninja 400
-- Includes realistic Taiwan market pricing and specifications
-- Features both Chinese and English model names for better accessibility
-- Covers various categories: Urban/Sport Scooters, Electric Vehicles, Naked Bikes, Sport Bikes, Maxi Scooters
+**Comprehensive Taiwan motorcycle database with 2000+ entries** covering the complete Taiwan market:
+
+**Taiwan Brands (1030 entries):**
+- **SYM 三陽機車**: 350 models - All vehicle series including 全新迪爵, JET SL+, DRG, MAXSYM TL, etc.
+- **KYMCO 光陽機車**: 300 models - Complete product line including 大地名流, Racing S, iONEX, AK series
+- **PGO 比雅久**: 200 models - Full range including Ur1, Tigra, G-Max series
+- **AEON 宏佳騰**: 180 models - Including smart electric vehicles Ai-1 series
+
+**International Brands in Taiwan (920 entries):**
+- **YAMAHA 台灣山葉**: 320 models - 勁戰 (Force), SMAX, YZF-R, MT series, etc.
+- **HONDA 台灣本田**: 280 models - PCX, Vision, CBR, CB series, etc.
+- **SUZUKI 台灣鈴木**: 200 models - Address, Burgman, GSX series, etc.
+- **KAWASAKI**: 120 models - Ninja, Z, Versys heavy bike series
+
+**Electric Vehicles (152 entries):**
+- **GOGORO**: 50 models - Complete electric scooter ecosystem
+- **Electric models from other brands**: Battery swapping and charging systems
+
+**Coverage Features:**
+- **Years**: 2020-2025 model years (6 years of comprehensive data)
+- **Displacement**: 50cc to 1000cc+ including electric vehicles
+- **Price Range**: NT$ 36,000 to NT$ 1,300,000+ (entry level to premium heavy bikes)
+- **Vehicle Types**: Urban/Sport/Maxi Scooters, Sport/Naked Bikes, Electric Vehicles
+- **Market Categories**: Entry Level, Commuter, Family, Sport, Premium, Heavy Bike, Electric
+- **Target Audiences**: 學生族群, 上班族通勤, 家庭用戶, 運動騎士, 品味人士, 重機玩家, 環保意識
+- **Complete specifications**: Engine details, power, fuel efficiency, weight, seat height, features
+- **Electric vehicle specs**: Battery capacity, range, charging systems
+- **Taiwan market pricing**: Realistic NT$ pricing with brand premiums
+- **Bilingual support**: Chinese and English model names
 
 ### generate_motorcycle_database.py
 Python script that generates the comprehensive motorcycle database. Run this script to create or regenerate the `complete_motorcycle_database.json` file with 20,000 realistic motorcycle entries.
@@ -41,8 +58,20 @@ Python script that generates the comprehensive motorcycle database. Run this scr
 ### example_usage.py
 Example script demonstrating how to load and use the motorcycle database for various analysis and filtering tasks.
 
-### taiwan_specific_usage.py
-Example Python script for working with the Taiwan-specific motorcycle database. Demonstrates filtering and analysis of the curated Taiwan models.
+### generate_taiwan_specific_database.py
+**New Python script** that generates the comprehensive Taiwan-specific motorcycle database with 2000+ entries. This script creates realistic Taiwan market data following the specific requirements:
+- Covers all major Taiwan and international brands
+- Includes proper displacement categories (50cc to 1000cc+)
+- Generates realistic Taiwan market pricing in NT$
+- Creates complete vehicle specifications including electric vehicles
+- Supports years 2020-2025 with realistic availability status
+- Includes Taiwan-specific features and target audiences
+
+### taiwan_specific_usage_demo.py
+**New demonstration script** showcasing how to analyze and query the Taiwan-specific motorcycle database. Includes examples for filtering by brand, price range, vehicle type, and market category.
+
+### validate_taiwan_database.py
+**New validation script** that ensures the generated Taiwan database meets all requirements specified in the expansion project, including brand coverage, field completeness, and data quality checks.
 
 ### enhanced_database_demo.py
 Demonstration script showcasing the enhanced database features including the extended 2000-2025 year coverage and realistic availability statuses.
@@ -93,12 +122,22 @@ with open('complete_motorcycle_database.json', 'r', encoding='utf-8') as f:
 motorcycles = data['motorcycles']
 print(f"Total entries: {len(motorcycles)}")
 
-# Or load the Taiwan-specific database
+# Or load the Taiwan-specific database (2000+ entries)
 with open('taiwan_specific_motorcycles.json', 'r', encoding='utf-8') as f:
     taiwan_data = json.load(f)
 
 taiwan_motorcycles = taiwan_data['motorcycles']
 print(f"Taiwan specific entries: {len(taiwan_motorcycles)}")
+
+# Example: Find entry-level scooters for students
+entry_level = [
+    m for m in taiwan_motorcycles 
+    if m['target_audience'] == '學生族群' and 
+       m['category'] == 'Entry Level'
+]
+
+for bike in entry_level[:3]:
+    print(f"{bike['brand']} {bike['model']} - {bike['price_range']}")
 ```
 
 ### Filtering Examples
@@ -116,19 +155,40 @@ scooters = [m for m in motorcycles if 'Scooter' in m['type']]
 ### Running Examples
 To see database analysis and usage examples:
 ```bash
-# For the comprehensive database
+# For the comprehensive Taiwan database (2000+ entries)
+python3 taiwan_specific_usage_demo.py
+
+# For the complete database (20,000 entries)
 python3 example_usage.py
 
-# For the Taiwan-specific database
+# For the original Taiwan-specific analysis
 python3 taiwan_specific_usage.py
 ```
 
 ### Taiwan-Specific Database
-The `taiwan_specific_motorcycles.json` contains curated data for 33 specific popular Taiwan motorcycle models:
-- **33 Popular Models**: Including SYM, Kymco, Yamaha, Honda, GOGORO, and local brands
-- **Chinese Names**: Original Chinese model names with English translations
-- **Taiwan Pricing**: Realistic Taiwan market pricing in NT$
-- **Accurate Specs**: Real-world engine specifications and features
+The Taiwan-specific database has been expanded from 33 to **2000+ comprehensive entries** covering the complete Taiwan motorcycle market:
+
+#### Generation & Validation
+```bash
+# Generate fresh Taiwan-specific database (2000+ entries)
+python3 generate_taiwan_specific_database.py
+
+# Validate database meets all requirements
+python3 validate_taiwan_database.py
+
+# Run comprehensive analysis and demos
+python3 taiwan_specific_usage_demo.py
+```
+
+#### Key Features
+- **2000+ entries** covering all major brands and categories
+- **Complete Taiwan market coverage**: SYM, KYMCO, PGO, AEON, YAMAHA, HONDA, SUZUKI, KAWASAKI, GOGORO
+- **Years 2020-2025**: Current and upcoming model years
+- **All displacement ranges**: 50cc to 1000cc+ including electric vehicles
+- **Comprehensive specifications**: Engine details, pricing, features, target audiences
+- **Electric vehicle support**: Battery capacity, range, charging systems
+- **Taiwan market pricing**: Realistic NT$ pricing from entry-level to premium
+- **Bilingual model names**: Chinese and English naming conventions
 - **Diverse Categories**: Urban/Sport Scooters, Electric Vehicles, Sport Bikes, Naked Bikes, Maxi Scooters
 
 Example usage:
