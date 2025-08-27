@@ -1,8 +1,8 @@
 {
   "title": "Taiwan Specific Motorcycle Database",
   "description": "Curated database of specific motorcycle models popular in Taiwan",
-  "last_updated": "2024-08-27",
-  "total_entries": 13,
+  "last_updated": "2024-12-19",
+  "total_entries": 33,
   "motorcycles": [
     {
       "brand": "SYM",
@@ -258,6 +258,408 @@
         "Racing heritage"
       ],
       "price_range": "NT$ 105,000 - 115,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Honda",
+      "model": "PCX 150",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "150cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "13.2 hp"
+      },
+      "features": [
+        "LED lighting",
+        "Smart key",
+        "Large storage space",
+        "Digital display",
+        "ABS system",
+        "Idling stop system"
+      ],
+      "price_range": "NT$ 110,000 - 120,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Honda",
+      "model": "Vino 125",
+      "model_english": "Vino 125",
+      "type": "Classic Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "8.2 hp"
+      },
+      "features": [
+        "Retro styling",
+        "Fuel efficient",
+        "Automatic transmission",
+        "Under-seat storage",
+        "Classic design"
+      ],
+      "price_range": "NT$ 80,000 - 90,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "GOGORO",
+      "model": "Viva Mix",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Permanent magnet synchronous motor",
+        "power": "6.4 kW (8.6 hp)"
+      },
+      "features": [
+        "Smart connectivity",
+        "Battery swapping system",
+        "Zero emissions",
+        "Mobile app integration",
+        "Eco-friendly design",
+        "Affordable pricing"
+      ],
+      "price_range": "NT$ 70,000 - 80,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "GOGORO",
+      "model": "3 Series",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Permanent magnet synchronous motor",
+        "power": "7.6 kW (10.2 hp)"
+      },
+      "features": [
+        "Enhanced performance",
+        "Smart connectivity",
+        "Battery swapping system",
+        "Premium features",
+        "Digital dashboard",
+        "Mobile app integration"
+      ],
+      "price_range": "NT$ 120,000 - 140,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "PGO",
+      "model": "Ur1",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Brushless DC motor",
+        "power": "7.2 kW (9.7 hp)"
+      },
+      "features": [
+        "Removable battery",
+        "Smart dashboard",
+        "Reverse gear",
+        "USB charging port",
+        "LED lighting system"
+      ],
+      "price_range": "NT$ 90,000 - 100,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "iONEX",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Permanent magnet synchronous motor",
+        "power": "7.0 kW (9.4 hp)"
+      },
+      "features": [
+        "Battery swapping network",
+        "Connected services",
+        "Fast charging",
+        "Smart key system",
+        "Digital display"
+      ],
+      "price_range": "NT$ 85,000 - 95,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "DRG 158",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "158cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "12.8 hp"
+      },
+      "features": [
+        "Sport suspension",
+        "ABS system",
+        "LED lighting",
+        "Digital dashboard",
+        "Racing-inspired design",
+        "Large wheels"
+      ],
+      "price_range": "NT$ 98,000 - 108,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Yamaha",
+      "model": "SMAX 155",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "155cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "15.0 hp"
+      },
+      "features": [
+        "Maxi-scooter design",
+        "Large storage",
+        "ABS system",
+        "LED lighting",
+        "Digital display",
+        "Comfortable seating"
+      ],
+      "price_range": "NT$ 125,000 - 135,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "Racing S 150",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "150cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "12.9 hp"
+      },
+      "features": [
+        "Racing-inspired design",
+        "LED headlight",
+        "USB charging port",
+        "ABS system",
+        "Sport suspension",
+        "Digital dashboard"
+      ],
+      "price_range": "NT$ 100,000 - 110,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "Jet 14 125",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.3 hp"
+      },
+      "features": [
+        "Sporty design",
+        "ABS braking",
+        "Digital display",
+        "LED lighting",
+        "Under-seat storage",
+        "CBS system"
+      ],
+      "price_range": "NT$ 85,000 - 95,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Yamaha",
+      "model": "YZF-R3",
+      "type": "Sport Bike",
+      "engine": {
+        "displacement": "321cc",
+        "type": "4-stroke, liquid-cooled, parallel-twin",
+        "power": "42 hp"
+      },
+      "features": [
+        "6-speed transmission",
+        "ABS system",
+        "Slipper clutch",
+        "LED lighting",
+        "Digital display",
+        "Racing heritage"
+      ],
+      "price_range": "NT$ 200,000 - 220,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Honda",
+      "model": "CB300R",
+      "type": "Naked Bike",
+      "engine": {
+        "displacement": "286cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "31 hp"
+      },
+      "features": [
+        "Neo Sports Cafe styling",
+        "LED lighting",
+        "IMU-based ABS",
+        "Digital display",
+        "Lightweight design",
+        "Upright riding position"
+      ],
+      "price_range": "NT$ 180,000 - 200,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kawasaki",
+      "model": "Ninja 400",
+      "type": "Sport Bike",
+      "engine": {
+        "displacement": "399cc",
+        "type": "4-stroke, liquid-cooled, parallel-twin",
+        "power": "45 hp"
+      },
+      "features": [
+        "Parallel twin engine",
+        "Assist and slipper clutch",
+        "Digital display",
+        "ABS system",
+        "LED lighting",
+        "Sport fairing"
+      ],
+      "price_range": "NT$ 230,000 - 250,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Yamaha",
+      "model": "MT-03",
+      "type": "Naked Bike",
+      "engine": {
+        "displacement": "321cc",
+        "type": "4-stroke, liquid-cooled, parallel-twin",
+        "power": "42 hp"
+      },
+      "features": [
+        "Naked sport design",
+        "A&S clutch",
+        "ABS system",
+        "LED lighting",
+        "Digital display",
+        "Upright ergonomics"
+      ],
+      "price_range": "NT$ 190,000 - 210,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "Kymco",
+      "model": "AK 550",
+      "type": "Maxi Scooter",
+      "engine": {
+        "displacement": "550cc",
+        "type": "4-stroke, liquid-cooled, parallel-twin",
+        "power": "53.7 hp"
+      },
+      "features": [
+        "Maxi-scooter design",
+        "ABS and TCS",
+        "Large storage",
+        "LED lighting",
+        "Digital dashboard",
+        "Comfort features"
+      ],
+      "price_range": "NT$ 320,000 - 350,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "SYM",
+      "model": "MAXSYM TL 500",
+      "type": "Maxi Scooter",
+      "engine": {
+        "displacement": "465cc",
+        "type": "4-stroke, liquid-cooled, parallel-twin",
+        "power": "44 hp"
+      },
+      "features": [
+        "Twin-cylinder engine",
+        "ABS system",
+        "Large storage",
+        "LED lighting",
+        "Digital display",
+        "Touring capability"
+      ],
+      "price_range": "NT$ 280,000 - 310,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "宏佳騰",
+      "model": "Ai-1 Sport",
+      "model_english": "Aeon Ai-1 Sport",
+      "type": "Electric Scooter",
+      "engine": {
+        "displacement": "Electric Motor",
+        "type": "Brushless DC motor",
+        "power": "7.2 kW (9.7 hp)"
+      },
+      "features": [
+        "Smart connectivity",
+        "Voice assistant",
+        "GPS navigation",
+        "Remote monitoring",
+        "Mobile app control",
+        "Modern design"
+      ],
+      "price_range": "NT$ 115,000 - 125,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "光陽",
+      "model": "Many 110",
+      "model_english": "Kymco Many 110",
+      "type": "Urban Scooter",
+      "engine": {
+        "displacement": "110cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "8.1 hp"
+      },
+      "features": [
+        "Compact design",
+        "Fuel efficient",
+        "Easy handling",
+        "Under-seat storage",
+        "CBS system",
+        "LED lighting"
+      ],
+      "price_range": "NT$ 55,000 - 62,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "三陽",
+      "model": "FNX 125",
+      "model_english": "SYM FNX 125",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "125cc",
+        "type": "4-stroke, air-cooled, single-cylinder",
+        "power": "9.5 hp"
+      },
+      "features": [
+        "Sport styling",
+        "LED lighting",
+        "Digital display",
+        "Under-seat storage",
+        "CBS system",
+        "Modern design"
+      ],
+      "price_range": "NT$ 75,000 - 82,000",
+      "availability": "Available"
+    },
+    {
+      "brand": "比雅久",
+      "model": "Tigra 200",
+      "model_english": "PGO Tigra 200",
+      "type": "Sport Scooter",
+      "engine": {
+        "displacement": "200cc",
+        "type": "4-stroke, liquid-cooled, single-cylinder",
+        "power": "16.8 hp"
+      },
+      "features": [
+        "Large displacement",
+        "Sport suspension",
+        "LED lighting",
+        "Digital dashboard",
+        "ABS system",
+        "Premium features"
+      ],
+      "price_range": "NT$ 140,000 - 155,000",
       "availability": "Available"
     }
   ]
