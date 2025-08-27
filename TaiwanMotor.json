@@ -203,8 +203,22 @@
         "speciality": "Scooters and motorcycles"
       },
       {
+        "name": "SYM 三陽",
+        "full_name": "三陽工業股份有限公司",
+        "founded": 1954,
+        "headquarters": "Hsinchu, Taiwan",
+        "speciality": "Scooters and motorcycles"
+      },
+      {
         "name": "Kymco",
         "full_name": "Kwang Yang Motor Co., Ltd.",
+        "founded": 1963,
+        "headquarters": "Kaohsiung, Taiwan",
+        "speciality": "Scooters and ATVs"
+      },
+      {
+        "name": "KYMCO 光陽",
+        "full_name": "光陽工業股份有限公司",
         "founded": 1963,
         "headquarters": "Kaohsiung, Taiwan",
         "speciality": "Scooters and ATVs"
@@ -217,19 +231,188 @@
         "speciality": "Scooters and electric vehicles"
       },
       {
+        "name": "PGO 比雅久",
+        "full_name": "比雅久機車工業股份有限公司",
+        "founded": 1964,
+        "headquarters": "Tainan, Taiwan",
+        "speciality": "Scooters and electric vehicles"
+      },
+      {
         "name": "Gogoro",
         "full_name": "Gogoro Inc.",
         "founded": 2011,
         "headquarters": "Taoyuan, Taiwan",
         "speciality": "Electric scooters and battery technology"
+      },
+      {
+        "name": "宏佳騰",
+        "full_name": "宏佳騰動力科技股份有限公司",
+        "headquarters": "Taiwan",
+        "speciality": "Smart electric scooters"
+      },
+      {
+        "name": "力豹仕",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "鈴鹿",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "中華",
+        "full_name": "中華汽車工業股份有限公司",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles and commercial vehicles"
+      },
+      {
+        "name": "永源",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "摩特動力",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycle engines and parts"
+      },
+      {
+        "name": "龍嘉",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "魅力",
+        "headquarters": "China/Taiwan",
+        "speciality": "Scooters"
+      },
+      {
+        "name": "新大洲",
+        "headquarters": "China",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "松鶴",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles"
+      },
+      {
+        "name": "迅馳",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "鈴木偉士牌（本地轉代理版本）",
+        "full_name": "Suzuki Local Assembly Version",
+        "headquarters": "Taiwan",
+        "speciality": "Locally assembled Suzuki motorcycles"
+      },
+      {
+        "name": "宏瑞",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles and parts"
+      },
+      {
+        "name": "鼎力",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "奔馳",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "龍行天下",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles"
+      },
+      {
+        "name": "銘偉",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles and parts"
+      },
+      {
+        "name": "銳能",
+        "headquarters": "China/Taiwan",
+        "speciality": "Electric motorcycles and scooters"
+      },
+      {
+        "name": "龍嘉摩托",
+        "headquarters": "China/Taiwan",
+        "speciality": "Motorcycles and scooters"
+      },
+      {
+        "name": "鋒明",
+        "headquarters": "Taiwan",
+        "speciality": "Motorcycles and parts"
       }
     ],
     "international": [
       {
-        "name": "Yamaha",
-        "full_name": "Yamaha Motor Co., Ltd.",
-        "origin": "Japan",
-        "market_presence": "Strong presence in Taiwan with local assembly"
+        "name": "APC",
+        "origin": "USA",
+        "market_presence": "Available through specialty dealers"
+      },
+      {
+        "name": "APRILIA",
+        "origin": "Italy",
+        "market_presence": "Premium sport bike segment"
+      },
+      {
+        "name": "BENELLI",
+        "origin": "Italy",
+        "market_presence": "Growing presence in Taiwan market"
+      },
+      {
+        "name": "BETAMOTOR",
+        "origin": "Italy",
+        "market_presence": "Off-road and enduro segment"
+      },
+      {
+        "name": "BIG BEAR CHOPPERS",
+        "origin": "USA",
+        "market_presence": "Custom motorcycle segment"
+      },
+      {
+        "name": "BIG DOG",
+        "origin": "USA",
+        "market_presence": "Custom chopper segment"
+      },
+      {
+        "name": "BIMOTA",
+        "origin": "Italy",
+        "market_presence": "Ultra-premium sport bikes"
+      },
+      {
+        "name": "BMW",
+        "origin": "Germany",
+        "market_presence": "Premium touring and adventure bikes"
+      },
+      {
+        "name": "BUELL",
+        "origin": "USA",
+        "market_presence": "Limited availability"
+      },
+      {
+        "name": "CAGIVA",
+        "origin": "Italy",
+        "market_presence": "Limited specialty market"
+      },
+      {
+        "name": "DUCATI",
+        "origin": "Italy",
+        "market_presence": "Strong premium sport bike presence"
+      },
+      {
+        "name": "GILERA",
+        "origin": "Italy",
+        "market_presence": "Limited scooter market"
+      },
+      {
+        "name": "HARLEY-DAVIDSON",
+        "origin": "USA",
+        "market_presence": "Strong cruiser and touring segment"
       },
       {
         "name": "Honda",
@@ -238,16 +421,133 @@
         "market_presence": "Popular brand with official dealerships"
       },
       {
+        "name": "HUSABERG",
+        "origin": "Sweden/Austria",
+        "market_presence": "Off-road specialist segment"
+      },
+      {
+        "name": "HUSQVARNA",
+        "origin": "Sweden",
+        "market_presence": "Off-road and dual-sport segment"
+      },
+      {
+        "name": "INDIAN",
+        "origin": "USA",
+        "market_presence": "Premium cruiser segment"
+      },
+      {
+        "name": "INSANE CHOPPERS",
+        "origin": "Various",
+        "market_presence": "Custom motorcycle segment"
+      },
+      {
         "name": "Kawasaki",
         "full_name": "Kawasaki Heavy Industries",
         "origin": "Japan",
         "market_presence": "Growing presence in sport bike segment"
       },
       {
+        "name": "KTM",
+        "origin": "Austria",
+        "market_presence": "Strong adventure and off-road presence"
+      },
+      {
+        "name": "MOTO GUZZI",
+        "origin": "Italy",
+        "market_presence": "Classic touring bike segment"
+      },
+      {
+        "name": "MOTORHISPANIA / MH MOTORCYCLES",
+        "origin": "Spain",
+        "market_presence": "Limited specialty market"
+      },
+      {
+        "name": "MV AGUSTA",
+        "origin": "Italy",
+        "market_presence": "Ultra-premium sport bike segment"
+      },
+      {
+        "name": "PEUGEOT",
+        "origin": "France",
+        "market_presence": "Limited scooter segment"
+      },
+      {
+        "name": "PIAGGIO",
+        "origin": "Italy",
+        "market_presence": "Strong scooter market presence"
+      },
+      {
+        "name": "ROYAL ENFIELD",
+        "origin": "India/UK",
+        "market_presence": "Growing classic motorcycle segment"
+      },
+      {
+        "name": "SACHS",
+        "origin": "Germany",
+        "market_presence": "Limited specialty market"
+      },
+      {
+        "name": "SAXON",
+        "origin": "Various",
+        "market_presence": "Limited availability"
+      },
+      {
+        "name": "SHADOW ILLUSION",
+        "origin": "Various",
+        "market_presence": "Custom motorcycle segment"
+      },
+      {
+        "name": "SPS",
+        "origin": "Various",
+        "market_presence": "Limited specialty market"
+      },
+      {
         "name": "Suzuki",
         "full_name": "Suzuki Motor Corporation",
         "origin": "Japan",
         "market_presence": "Moderate presence in Taiwan market"
+      },
+      {
+        "name": "TRAVERSTON",
+        "origin": "USA",
+        "market_presence": "Limited custom segment"
+      },
+      {
+        "name": "TRIUMPH",
+        "origin": "UK",
+        "market_presence": "Premium classic and sport bike segment"
+      },
+      {
+        "name": "ULTRA",
+        "origin": "Various",
+        "market_presence": "Limited specialty market"
+      },
+      {
+        "name": "VESPA",
+        "origin": "Italy",
+        "market_presence": "Strong premium scooter segment"
+      },
+      {
+        "name": "VICTORY",
+        "origin": "USA",
+        "market_presence": "Limited cruiser segment"
+      },
+      {
+        "name": "Yamaha",
+        "full_name": "Yamaha Motor Co., Ltd.",
+        "origin": "Japan",
+        "market_presence": "Strong presence in Taiwan with local assembly"
+      },
+      {
+        "name": "YAMAHA 山葉",
+        "full_name": "Yamaha Motor Taiwan",
+        "origin": "Japan/Taiwan",
+        "market_presence": "Local Taiwan operations"
+      },
+      {
+        "name": "ZERO ENGINEERING",
+        "origin": "Japan",
+        "market_presence": "Limited custom chopper segment"
       }
     ]
   },
