@@ -44,6 +44,9 @@ Example script demonstrating how to load and use the motorcycle database for var
 ### taiwan_specific_usage.py
 Example Python script for working with the Taiwan-specific motorcycle database. Demonstrates filtering and analysis of the curated Taiwan models.
 
+### enhanced_database_demo.py
+Demonstration script showcasing the enhanced database features including the extended 2000-2025 year coverage and realistic availability statuses.
+
 ## Database Structure
 
 Each motorcycle entry follows this structure:
