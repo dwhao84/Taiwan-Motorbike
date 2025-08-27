@@ -22,13 +22,18 @@ A comprehensive database with 20,000 motorcycle entries including:
 Original smaller database with curated motorcycle data organized by categories.
 
 ### taiwan_specific_motorcycles.json
-Focused database containing specific motorcycle models popular in Taiwan, including:
-- **SYM Models**: 全新迪爵125, JET SL+ 158, 迪爵125, Woo 115, 活力125, CLBCU 125
-- **Kymco Models**: 大地名流125/150, GP 125, 新豪邁125
-- **Yamaha Models**: Jog 125, 勁戰 (Force 155)
-- **GOGORO**: Electric scooter series
+Focused database containing 33 specific motorcycle models popular in Taiwan, including:
+- **SYM Models**: 全新迪爵125, JET SL+ 158, 迪爵125, Woo 115, 活力125, CLBCU 125, DRG 158, Jet 14 125, MAXSYM TL 500
+- **Kymco Models**: 大地名流125/150, GP 125, 新豪邁125, Racing S 150, iONEX, AK 550
+- **Yamaha Models**: Jog 125, 勁戰 (Force 155), SMAX 155, YZF-R3, MT-03
+- **Honda Models**: PCX 150, Vino 125, CB300R
+- **GOGORO**: Electric scooter series (2 Series, Viva Mix, 3 Series)
+- **Other Electric**: PGO Ur1, 宏佳騰 Ai-1 Sport
+- **Local Brands**: 光陽 Many 110, 三陽 FNX 125, 比雅久 Tigra 200
+- **Sport Bikes**: Kawasaki Ninja 400
 - Includes realistic Taiwan market pricing and specifications
 - Features both Chinese and English model names for better accessibility
+- Covers various categories: Urban/Sport Scooters, Electric Vehicles, Naked Bikes, Sport Bikes, Maxi Scooters
 
 ### generate_motorcycle_database.py
 Python script that generates the comprehensive motorcycle database. Run this script to create or regenerate the `complete_motorcycle_database.json` file with 20,000 realistic motorcycle entries.
@@ -108,11 +113,12 @@ python3 taiwan_specific_usage.py
 ```
 
 ### Taiwan-Specific Database
-The `taiwan_specific_motorcycles.json` contains curated data for specific popular Taiwan motorcycle models:
-- **13 Popular Models**: Including SYM, Kymco, Yamaha, and GOGORO models
+The `taiwan_specific_motorcycles.json` contains curated data for 33 specific popular Taiwan motorcycle models:
+- **33 Popular Models**: Including SYM, Kymco, Yamaha, Honda, GOGORO, and local brands
 - **Chinese Names**: Original Chinese model names with English translations
 - **Taiwan Pricing**: Realistic Taiwan market pricing in NT$
 - **Accurate Specs**: Real-world engine specifications and features
+- **Diverse Categories**: Urban/Sport Scooters, Electric Vehicles, Sport Bikes, Naked Bikes, Maxi Scooters
 
 Example usage:
 ```python
@@ -126,6 +132,11 @@ print(f"SYM models: {len(sym_models)}")
 
 # Find budget motorcycles under NT$ 70,000
 budget_bikes = [m for m in taiwan_data['motorcycles'] 
+                if int(m['price_range'].split('NT$ ')[1].split(' -')[0].replace(',', '')) < 70000]
+
+# Find electric motorcycles
+electric_bikes = [m for m in taiwan_data['motorcycles'] 
+                  if m['engine']['displacement'] == 'Electric Motor'] 
                 if int(m['price_range'].split(' - ')[0].replace('NT$ ', '').replace(',', '')) <= 70000]
 ```
 
