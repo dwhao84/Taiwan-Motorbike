@@ -1,359 +1,1988 @@
 [
-  { "brand": "Aeon", "model": "Brera X 300", "year": null, "generation": null},
-  { "brand": "Aeon", "model": "Brera X 250", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "3D-350R", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "STR 300 GT", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "STR 300", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "STR 250", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "New CO-IN", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "MY150 Retro ABS", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "EV.C1", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Ai-1 Ultra Belt", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Ai-1 Sport ABS", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Ai-1 Sport+", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Ai-3 Lite", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Ai-3 More", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Ai-4 Ever", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "Coopop 01", "year": null, "generation": null },
-  
-  { "brand": "Suzuki", "model": "V-Strom 650 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GLADIUS 650 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "SV 650 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "BOULEVARD M109R", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "BURGMAN AN650 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-S1000 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-S1000F ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "V-Strom 1000 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "BURGMAN AN400 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "V-Strom 650XT ABS 2017", "year": 2017, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-1300R Hayabusa", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-R1000R", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-R1000", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-S750", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "V-Strom 1050 ABS", "year": null, "generation": null },
-
-  { "brand": "Suzuki", "model": "Address 110", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "RG50E", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "RG80E", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "RG125E", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Burgman 200", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Skywave 250", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-R150 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX-S150 ABS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "GSX150 BANDIT", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Gixxer 250", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Gixxer SF 250", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "V-STROM 250 SX", "year": null, "generation": null },
-
-  { "brand": "Suzuki", "model": "SUI 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Saluto 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "NEX 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Swish 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Sepia 100 斜板 / 可動", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "贏家 100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "百戰贏家 100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "金贏家 Dream 100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "快樂星艦 100 斜板 / 可動", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "水噹噹 Swing 100 可動", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Dao 100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "XZR 100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "晶鑽 Solight 100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "贏將 Topgun 125 斜板 / 可動", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "幻象星艦/遨遊星艦/霹靂星艦 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "X星艦 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "銀河星艦/GSR/GSR NEX 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "水噹噹 Swing 125 斜板 / 可動", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "XR/XRV/XZR 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "晶鑽 Solight 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Tekken 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Address V125G", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Address V125SS", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Address Z 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Music 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Swish 125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Saluto 125", "year": null, "generation": null },
-
-  { "brand": "Suzuki", "model": "愛神90", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "清雲100", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "RG50Γ", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "RG125Γ", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "羚羊100ss", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "新金鷹110", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "帥BS125ss", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "雄獅BS125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "名劍GS125", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "戰馬GS125R", "year": null, "generation": null },
-
-  { "brand": "Suzuki", "model": "極速星艦/飛翔星艦/霹靂星艦 150", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "銀河星艦GSR 150", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "X星艦 150", "year": null, "generation": null },
-
-  { "brand": "Suzuki", "model": "雄獅BS135", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "雄獅BS150", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "名劍GS150", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "戰馬GS150R", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "TU250", "year": null, "generation": null },
-
-  { "brand": "Aeon", "model": "eReady Fun", "year": null, "generation": null },
-  { "brand": "Aeon", "model": "eReady Run", "year": null, "generation": null },
-
-  { "brand": "Suzuki", "model": "Choi-Nori 50", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "新貴 50", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Let's 50 斜板 / 可動", "year": null, "generation": null },
-  { "brand": "Suzuki", "model": "Sepia 50 斜板 / 可動", "year": null, "generation": null },
-
-  
-  { "brand": "Yamaha", "model": "RS100", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "RSZ", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "RSZero", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "RSNEO", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Axis Z/Zii（勁豪125）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "BW'S X（5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "BW'S R（5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "BW'S（水冷/B8R）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "CUXi", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Limi", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Vinoora（小小兵）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "FZ150", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Cygnus（1~4代 勁戰/5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Cygnus ABS（5代勁戰/5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Cygnus Gryphus（6代勁戰/VVA/B8R）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Jog", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "GTR 125（5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "GTR Aero 125（5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "RAY 125（5ML）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Vino", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "FZR150", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "愛將SR150", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "跩哥SRA150", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "FZ-X", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "迎光150", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "追風135", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "SMAX 155（1DK）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "SMAX 155 ABS（1DK）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "FORCE 155（1DK）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "FORCE 2.0 VVA（155c.c/ABS+TCS/BFV）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "X FORCE 155（日規版 FORCE 2.0）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "NMAX 155", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "AeroX 155", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "Tricity 155", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "EC-05（電動機車）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "AUGUR 155（BFV）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "MT-15", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "MT-03", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "MT-07", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "MT-09", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "YZF-R15（V3）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "YZF-R15（V4）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "YZF-R3", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "YZF-R7", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "YZF-R9", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "YZF-R1（公升級）", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "X MAX 300", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "T MAX 530", "year": null, "generation": null },
-  { "brand": "Yamaha", "model": "T MAX 560", "year": null, "generation": null },
-
-  { "brand": "Yamaha", "model": "TMAX 560", "year": null, "generation": null },
-  { "brand": "Gogoro", "model": "1 Series", "year": "2015-2023 (停產)", "generation": null },
-  { "brand": "Gogoro", "model": "S1 (原 S Performance / Gogoro S)", "year": "2016-2018", "generation": null },
-  { "brand": "Gogoro", "model": "2 Series", "year": "2017-", "generation": null },
-  { "brand": "Gogoro", "model": "2 Plus", "year": "2017-", "generation": null },
-  { "brand": "Gogoro", "model": "2 Delight", "year": "2017-", "generation": null },
-  { "brand": "Gogoro", "model": "S2", "year": "2018-", "generation": null },
-  { "brand": "Gogoro", "model": "3 Series", "year": "2019-2021 (停產)", "generation": null },
-  { "brand": "Gogoro", "model": "S3", "year": "2019-2022 (停產)", "generation": null },
-  { "brand": "Gogoro", "model": "VIVA", "year": "2019-", "generation": null },
-  { "brand": "Gogoro", "model": "VIVA MIX", "year": "2021-", "generation": null },
-  { "brand": "Gogoro", "model": "VIVA XL", "year": "2021-", "generation": null },
-  { "brand": "Gogoro", "model": "SuperSport", "year": "2022-", "generation": null },
-  { "brand": "Gogoro", "model": "Delight", "year": "2022-", "generation": null },
-  { "brand": "Gogoro", "model": "CrossOver", "year": "2023-", "generation": null },
-  { "brand": "Gogoro", "model": "JEGO", "year": "2024-", "generation": null },
-  { "brand": "Gogoro", "model": "Pulse", "year": "2024-", "generation": null },
-
-  { "brand": "PGO", "model": "敏耐力", "year": null, "generation": null },
-  { "brand": "PGO", "model": "羽田 90/100/125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "功夫 Kung Fu 125", "year": null, "generation": null },
-
-  { "brand": "PGO", "model": "金祥瑞 50", "year": null, "generation": null },
-  { "brand": "PGO", "model": "得意 50/90", "year": null, "generation": null },
-  { "brand": "PGO", "model": "銀翼 Comet 50", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Galaxy 飛雲 50/飛將 90", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Ultima 50", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Hot 50/90", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Support 51", "year": null, "generation": null },
-  { "brand": "PGO", "model": "New Hot 50/90", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Tornado 50/90", "year": null, "generation": null },
-  { "brand": "PGO", "model": "PMX 50/90", "year": null, "generation": null },
-  { "brand": "PGO", "model": "馬路秀 Rodoshow 50/90", "year": null, "generation": null },
-
-  { "brand": "PGO", "model": "雷虎 100/125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Charge 100 (可動)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Hot 100", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Mybubu 100", "year": null, "generation": null },
-  { "brand": "PGO", "model": "YoungBubu 100", "year": null, "generation": null },
-  { "brand": "PGO", "model": "PMX 110", "year": null, "generation": null },
-  { "brand": "PGO", "model": "J-bubu 115 (ISS/ABS)", "year": null, "generation": null },
-
-  { "brand": "PGO", "model": "比雅久 Piaggio 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "黑豹 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Alpha Max/Alpha Max Naked 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "BON 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Charge 125 (斜板/可動)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "ibubu 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "YoungBubu 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "i'ME/i'ME Welbike 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "J-bubu/J-bubu S 125 (ABS)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Leon 125 (Hybrid 油電混合)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Alloro/Evo G-Max 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "大駻 T-Rex 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "彪虎 Tigra 125 (ISS)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "X-Hot 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Spring 125", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Zan 125", "year": null, "generation": null },
-
-  { "brand": "PGO", "model": "飛豹 150", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Charge 150 (斜板)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "G-Max 150/200/220", "year": null, "generation": null },
-  { "brand": "PGO", "model": "i'ME/i'ME Welbike 150", "year": null, "generation": null },
-  { "brand": "PGO", "model": "大駻 T-Rex/Dr.Big 150", "year": null, "generation": null },
-  { "brand": "PGO", "model": "彪虎 Tigra 150 (ISS/ABS)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "彪虎 Tigra 180 (ISS/ABS)", "year": null, "generation": null },
-  { "brand": "PGO", "model": "彪虎 Tigra 200", "year": null, "generation": null },
-  { "brand": "PGO", "model": "X-Hot 150", "year": null, "generation": null },
-  { "brand": "PGO", "model": "TiG", "year": null, "generation": null },
-
-  { "brand": "PGO", "model": "Tigra 250", "year": null, "generation": null },
-
-  { "brand": "PGO", "model": "Ur1", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Ur1 Plus", "year": null, "generation": null },
-  { "brand": "PGO", "model": "Ur2 Plus", "year": null, "generation": null },
-  { "brand": "PGO", "model": "X-Rider 110/150", "year": null, "generation": null },
-
-  { "brand": "KYMCO", "model": "俏麗 Cherry 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "得意 Easy 50cc 可動", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Easy 4U 50cc 可動", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "翔鶴/金翔鶴 Fever 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁 Filly 50cc/80cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "勾引 Going 50cc 斜板/可動", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Idol 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "街跑 JPop 50cc/70cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Kiwi 50cc/70cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Manboy 50cc/90cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Many 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪美/金豪美 Refined 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "翔鷹 Sniper 50cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "佳人 Caren 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "新生代 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "新生代 SS 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "名流 Spacy 80cc (斜板)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Topboy 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "VJR 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Yup 50cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Zap 50cc (斜板/可動)", "year": null, "generation": null },
-
-  { "brand": "KYMCO", "model": "翔羚 Charming 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "俏麗 Cherry/Cue 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "得意 Easy 100cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁 Easy 4U 100cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "金得意 So Easy 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪龍 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "翔鶴/金翔鶴 Fever 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Free 110cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "勾引 Going 100cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "FLASH KDI X-MODE 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Idol 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "JPop 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "JR 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Candy/Kandy 110cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Kiwi 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Manboy 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Many 110cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Nice 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "翔鷹 Sniper 100cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "名流 Spacy 100cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Topboy 100cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "VJR 110cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Genie 小精靈 115cc", "year": null, "generation": null },
-
-  { "brand": "KYMCO", "model": "Capture 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪漢 Heroism 125cc (斜板/可動)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁/金豪邁 Freeway 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁奔馳 Jockey E1 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁奔騰 Jockey G2/G3/V1 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁奔馳 Jockey V2/V2+ 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁如意 Jockey EZ 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁奔騰 Jockey SR 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "金牌 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "G5 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "超5 Mega G5/G6E/X-Sense 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "G6 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "威風 Huzza 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Like 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "三冠王 Movie 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "雷霆 Racing 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Racing S 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Racing S 125cc (ABS/RCS)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Many/Romeo 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Tango 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Techno 鐵克諾 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "VJR 125cc (ABS)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "小如意 Herself 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "V-Link 125cc/VP/GP/GP2/eco7", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "X-Going / X-Going City 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Cue 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "G Sense 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "X Sense 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "新名流 Famous / Goodway / 2.0 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "新豪邁 Freeway 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "奔騰 K1 125cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "RTS 125cc", "year": null, "generation": null },
-
-  { "brand": "KYMCO", "model": "A博士 Apex 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Dink 180cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Grand Dink/G-Dink 250cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "EGO 150cc/250cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "名流 Freeway 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "G5 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "超5 Mega G5 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "G6 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "X Sense 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪漢 Heroism 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁奔騰 Jockey V1 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "豪邁奔騰 Jockey V2/V2+ 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "金牌/超級金牌 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Like 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "三冠王 Movie 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "雷霆 Racing 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Racing S 150cc (ABS/TCS)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "雷霆王 Racing King 180cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Techno 鐵克諾 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "GP2 150cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Nikita 200cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Xciting R 250cc Fi", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Xciting 250cc", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Like Colombo 150cc/S 150", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "KRV 180cc/Moto/RomaGT", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "RTS 135cc (水冷/TCS)", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "RTS R 165cc (水冷/TCS)", "year": null, "generation": null },
-
-  { "brand": "KYMCO", "model": "Nikita 300cc Fi", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "G-Dink 300i", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Shadow/Tersely 300i GTi", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "K-XCT 300i", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Downtown 350i", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Xciting 400i", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Xciting R 300i/500i", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "AK550", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "MyRoad 700i", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Downtown 350 TCS", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "Xciting S400 TCS", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "DTX360", "year": null, "generation": null },
-
-  { "brand": "KYMCO", "model": "PC50/良伴 PF50", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "勝利者 GL110", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "鐵人 125", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "王牌 135/135RS/135SS", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "野火 125", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "新爽 100", "year": null, "generation": null }
+  {
+    "brand": "Aeon",
+    "model": "Brera X 300",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Brera X 250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "3D-350R",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "STR 300 GT",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "STR 300",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "STR 250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "New CO-IN",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "MY150 Retro ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "EV.C1",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Ai-1 Ultra Belt",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Ai-1 Sport ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Ai-1 Sport+",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Ai-3 Lite",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Ai-3 More",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Ai-4 Ever",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "Coopop 01",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "V-Strom 650 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GLADIUS 650 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SV 650 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "BOULEVARD M109R",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "BURGMAN AN650 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-S1000 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-S1000F ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "V-Strom 1000 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "BURGMAN AN400 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "V-Strom 650XT ABS 2017",
+    "year": 2017,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-1300R Hayabusa",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-R1000R",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-R1000",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-S750",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "V-Strom 1050 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Address 110",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "RG50E",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "RG80E",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "RG125E",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Burgman 200",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Skywave 250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-R150 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX-S150 ABS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "GSX150 BANDIT",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Gixxer 250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Gixxer SF 250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "V-STROM 250 SX",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "SUI 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Saluto 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "NEX 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Swish 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Sepia 100 斜板 / 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "贏家 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "百戰贏家 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "金贏家 Dream 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "快樂星艦 100 斜板 / 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "水噹噹 Swing 100 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Dao 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "XZR 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "晶鑽 Solight 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "贏將 Topgun 125 斜板 / 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "幻象星艦/遨遊星艦/霹靂星艦 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "X星艦 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "銀河星艦/GSR/GSR NEX 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "水噹噹 Swing 125 斜板 / 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "XR/XRV/XZR 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "晶鑽 Solight 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Tekken 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Address V125G",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Address V125SS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Address Z 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Music 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "愛神90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "清雲100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "RG50Γ",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "RG125Γ",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "羚羊100ss",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "新金鷹110",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "帥BS125ss",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "雄獅BS125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "名劍GS125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "戰馬GS125R",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "極速星艦/飛翔星艦/霹靂星艦 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "銀河星艦GSR 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "X星艦 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "雄獅BS135",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "雄獅BS150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "名劍GS150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "戰馬GS150R",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "TU250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "eReady Fun",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Aeon",
+    "model": "eReady Run",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Choi-Nori 50",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "新貴 50",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Let's 50 斜板 / 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Suzuki",
+    "model": "Sepia 50 斜板 / 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "RS100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "RSZ",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "RSZero",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "RSNEO",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Axis Z/Zii（勁豪125）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "BW'S X（5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "BW'S R（5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "BW'S（水冷/B8R）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "CUXi",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Limi",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Vinoora（小小兵）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "FZ150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Cygnus（1~4代 勁戰/5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Cygnus ABS（5代勁戰/5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Cygnus Gryphus（6代勁戰/VVA/B8R）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Jog",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "GTR 125（5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "GTR Aero 125（5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "RAY 125（5ML）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Vino",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "FZR150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "愛將SR150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "跩哥SRA150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "FZ-X",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "迎光150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "追風135",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "SMAX 155（1DK）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "SMAX 155 ABS（1DK）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "FORCE 155（1DK）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "FORCE 2.0 VVA（155c.c/ABS+TCS/BFV）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "X FORCE 155（日規版 FORCE 2.0）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "NMAX 155",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "AeroX 155",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "Tricity 155",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "EC-05（電動機車）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "AUGUR 155（BFV）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "MT-15",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "MT-03",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "MT-07",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "MT-09",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "YZF-R15（V3）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "YZF-R15（V4）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "YZF-R3",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "YZF-R7",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "YZF-R9",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "YZF-R1（公升級）",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "X MAX 300",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "T MAX 530",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "T MAX 560",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Yamaha",
+    "model": "TMAX 560",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "1 Series",
+    "year": "2015-2023 (停產)",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "S1 (原 S Performance / Gogoro S)",
+    "year": "2016-2018",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "2 Series",
+    "year": "2017-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "2 Plus",
+    "year": "2017-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "2 Delight",
+    "year": "2017-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "S2",
+    "year": "2018-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "3 Series",
+    "year": "2019-2021 (停產)",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "S3",
+    "year": "2019-2022 (停產)",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "VIVA",
+    "year": "2019-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "VIVA MIX",
+    "year": "2021-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "VIVA XL",
+    "year": "2021-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "SuperSport",
+    "year": "2022-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "Delight",
+    "year": "2022-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "CrossOver",
+    "year": "2023-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "JEGO",
+    "year": "2024-",
+    "generation": null
+  },
+  {
+    "brand": "Gogoro",
+    "model": "Pulse",
+    "year": "2024-",
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "敏耐力",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "羽田 90/100/125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "功夫 Kung Fu 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "金祥瑞 50",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "得意 50/90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "銀翼 Comet 50",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Galaxy 飛雲 50/飛將 90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Ultima 50",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Hot 50/90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Support 51",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "New Hot 50/90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Tornado 50/90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "PMX 50/90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "馬路秀 Rodoshow 50/90",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "雷虎 100/125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Charge 100 (可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Hot 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Mybubu 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "YoungBubu 100",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "PMX 110",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "J-bubu 115 (ISS/ABS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "比雅久 Piaggio 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "黑豹 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Alpha Max/Alpha Max Naked 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "BON 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Charge 125 (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "ibubu 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "YoungBubu 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "i'ME/i'ME Welbike 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "J-bubu/J-bubu S 125 (ABS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Leon 125 (Hybrid 油電混合)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Alloro/Evo G-Max 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "大駻 T-Rex 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "彪虎 Tigra 125 (ISS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "X-Hot 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Spring 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Zan 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "飛豹 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Charge 150 (斜板)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "G-Max 150/200/220",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "i'ME/i'ME Welbike 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "大駻 T-Rex/Dr.Big 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "彪虎 Tigra 150 (ISS/ABS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "彪虎 Tigra 180 (ISS/ABS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "彪虎 Tigra 200",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "X-Hot 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "TiG",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Tigra 250",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Ur1",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Ur1 Plus",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "Ur2 Plus",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "PGO",
+    "model": "X-Rider 110/150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "俏麗 Cherry 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "得意 Easy 50cc 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Easy 4U 50cc 可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "翔鶴/金翔鶴 Fever 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁 Filly 50cc/80cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "勾引 Going 50cc 斜板/可動",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Idol 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "街跑 JPop 50cc/70cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Kiwi 50cc/70cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Manboy 50cc/90cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Many 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪美/金豪美 Refined 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "翔鷹 Sniper 50cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "佳人 Caren 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "新生代 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "新生代 SS 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "名流 Spacy 80cc (斜板)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Topboy 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "VJR 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Yup 50cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Zap 50cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "翔羚 Charming 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "俏麗 Cherry/Cue 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "得意 Easy 100cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁 Easy 4U 100cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "金得意 So Easy 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪龍 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "翔鶴/金翔鶴 Fever 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Free 110cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "勾引 Going 100cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "FLASH KDI X-MODE 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Idol 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "JPop 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "JR 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Candy/Kandy 110cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Kiwi 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Manboy 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Many 110cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Nice 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "翔鷹 Sniper 100cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "名流 Spacy 100cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Topboy 100cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "VJR 110cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Genie 小精靈 115cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Capture 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪漢 Heroism 125cc (斜板/可動)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁/金豪邁 Freeway 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁奔馳 Jockey E1 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁奔騰 Jockey G2/G3/V1 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁奔馳 Jockey V2/V2+ 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁如意 Jockey EZ 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁奔騰 Jockey SR 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "金牌 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "G5 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "超5 Mega G5/G6E/X-Sense 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "G6 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "威風 Huzza 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Like 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "三冠王 Movie 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "雷霆 Racing 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Racing S 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Racing S 125cc (ABS/RCS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Many/Romeo 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Tango 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Techno 鐵克諾 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "VJR 125cc (ABS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "小如意 Herself 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "V-Link 125cc/VP/GP/GP2/eco7",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "X-Going / X-Going City 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Cue 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "G Sense 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "X Sense 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "新名流 Famous / Goodway / 2.0 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "新豪邁 Freeway 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "奔騰 K1 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "RTS 125cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "A博士 Apex 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Dink 180cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Grand Dink/G-Dink 250cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "EGO 150cc/250cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "名流 Freeway 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "G5 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "超5 Mega G5 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "G6 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "X Sense 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪漢 Heroism 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁奔騰 Jockey V1 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "豪邁奔騰 Jockey V2/V2+ 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "金牌/超級金牌 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Like 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "三冠王 Movie 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "雷霆 Racing 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Racing S 150cc (ABS/TCS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "雷霆王 Racing King 180cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Techno 鐵克諾 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "GP2 150cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Nikita 200cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Xciting R 250cc Fi",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Xciting 250cc",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Like Colombo 150cc/S 150",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "KRV 180cc/Moto/RomaGT",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "RTS 135cc (水冷/TCS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "RTS R 165cc (水冷/TCS)",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Nikita 300cc Fi",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "G-Dink 300i",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Shadow/Tersely 300i GTi",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "K-XCT 300i",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Downtown 350i",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Xciting 400i",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Xciting R 300i/500i",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "AK550",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "MyRoad 700i",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Downtown 350 TCS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "Xciting S400 TCS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "DTX360",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "PC50/良伴 PF50",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "勝利者 GL110",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "鐵人 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "王牌 135/135RS/135SS",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "野火 125",
+    "year": null,
+    "generation": null
+  },
+  {
+    "brand": "KYMCO",
+    "model": "新爽 100",
+    "year": null,
+    "generation": null
+  }
 ]

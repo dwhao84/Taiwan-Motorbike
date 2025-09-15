@@ -1,179 +1,202 @@
 # Taiwan Motorcycle Database
 
 ## Overview
-This repository contains comprehensive motorcycle data for Taiwan, featuring over 20,000 motorcycle entries from major brands popular in Taiwan.
+This repository contains a comprehensive motorcycle database for Taiwan, featuring 331 motorcycle entries from 6 major brands popular in the Taiwan market. The database includes both traditional gasoline motorcycles and modern electric vehicles.
 
-## Files
+## Data Source: TaiwanMotor.json
 
-### complete_motorcycle_database.json
-A comprehensive database with 20,000 motorcycle entries including:
-- **Brand**: Major motorcycle brands (Honda, Yamaha, Kymco, SYM, Suzuki, Kawasaki, Aeon, PGO, Sanyang, CFMOTO)
-- **Model**: Specific model names with variants and years
-- **Type**: Vehicle type (Sport, Scooter, Touring, Adventure, etc.)
-- **Engine**: Complete engine specifications
-  - Displacement (50cc - 1500cc)
-  - Engine type (4-stroke liquid-cooled, air-cooled, etc.)
-  - Power output (HP)
-- **Features**: Key features and capabilities
-- **Price Range**: Taiwan market pricing in NT$ (New Taiwan Dollar)
-- **Availability**: Current availability status
+The main data file `TaiwanMotor.json` contains curated motorcycle information with the following structure:
 
-### TaiwanMotor.json
-Original smaller database with curated motorcycle data organized by categories.
-
-### taiwan_specific_motorcycles.json
-Focused database containing 33 specific motorcycle models popular in Taiwan, including:
-- **SYM Models**: 全新迪爵125, JET SL+ 158, 迪爵125, Woo 115, 活力125, CLBCU 125, DRG 158, Jet 14 125, MAXSYM TL 500
-- **Kymco Models**: 大地名流125/150, GP 125, 新豪邁125, Racing S 150, iONEX, AK 550
-- **Yamaha Models**: Jog 125, 勁戰 (Force 155), SMAX 155, YZF-R3, MT-03
-- **Honda Models**: PCX 150, Vino 125, CB300R
-- **GOGORO**: Electric scooter series (2 Series, Viva Mix, 3 Series)
-- **Other Electric**: PGO Ur1, 宏佳騰 Ai-1 Sport
-- **Local Brands**: 光陽 Many 110, 三陽 FNX 125, 比雅久 Tigra 200
-- **Sport Bikes**: Kawasaki Ninja 400
-- Includes realistic Taiwan market pricing and specifications
-- Features both Chinese and English model names for better accessibility
-- Covers various categories: Urban/Sport Scooters, Electric Vehicles, Naked Bikes, Sport Bikes, Maxi Scooters
-
-### generate_motorcycle_database.py
-Python script that generates the comprehensive motorcycle database. Run this script to create or regenerate the `complete_motorcycle_database.json` file with 20,000 realistic motorcycle entries.
-
-### example_usage.py
-Example script demonstrating how to load and use the motorcycle database for various analysis and filtering tasks.
-
-### taiwan_specific_usage.py
-Example Python script for working with the Taiwan-specific motorcycle database. Demonstrates filtering and analysis of the curated Taiwan models.
-
-### enhanced_database_demo.py
-Demonstration script showcasing the enhanced database features including the extended 2000-2025 year coverage and realistic availability statuses.
-
-## Database Structure
-
-Each motorcycle entry follows this structure:
+### Database Structure
+Each motorcycle entry follows this simple but comprehensive structure:
 ```json
 {
-  "brand": "Honda",
-  "model": "PCX 150 (2023)",
-  "type": "Sport Scooter",
-  "engine": {
-    "displacement": "150cc",
-    "type": "4-stroke, liquid-cooled",
-    "power": "13.2 hp"
-  },
-  "features": ["LED lighting", "Smart key", "Large storage space"],
-  "price_range": "NT$ 110,000 - 120,000",
-  "availability": "Available"
+  "brand": "Yamaha",
+  "model": "FORCE 155（1DK）",
+  "year": null,
+  "generation": null
 }
 ```
 
-### Availability Status
-The database includes realistic availability statuses based on model year:
-- **Available**: Current models (2022-2025)
-- **Limited Availability**: Recent models with limited stock (2018-2021)
-- **Discontinued**: Models no longer in production (2010-2017)
-- **Used Market Only**: Older models available only in used market (2005-2015)
-- **Collector Item**: Classic/vintage models (2000-2009)
+### Brand Coverage
+The database covers 6 major motorcycle brands in Taiwan:
 
-## Usage
+- **KYMCO (光陽)**: 121 models (36.6%) - The largest Taiwanese motorcycle manufacturer
+- **Suzuki**: 74 models (22.4%) - Popular Japanese brand with strong presence in Taiwan
+- **PGO (摩特動力)**: 52 models (15.7%) - Taiwanese manufacturer known for scooters
+- **Yamaha**: 50 models (15.1%) - Japanese brand popular for sport bikes and scooters
+- **Aeon (宏佳騰)**: 18 models (5.4%) - Taiwanese manufacturer with focus on electric vehicles
+- **Gogoro**: 16 models (4.8%) - Leading Taiwanese electric scooter brand
 
-### Running the Generator
-To generate a fresh database with 20,000 motorcycle entries:
-```bash
-python3 generate_motorcycle_database.py
-```
+**Total: 331 motorcycle entries**
+
+### Model Categories
+
+The database includes various types of motorcycles popular in Taiwan:
+
+#### Traditional Gasoline Motorcycles
+- **Scooters**: Most popular category in Taiwan (KYMCO Racing 150, Yamaha SMAX 155)
+- **Sport Bikes**: Performance motorcycles (Yamaha YZF-R15, Suzuki GSX-R150)
+- **Naked Bikes**: Versatile motorcycles (Yamaha MT series, Suzuki GSX-S series)
+- **Adventure Bikes**: Touring motorcycles (Suzuki V-Strom series)
+- **Classic/Retro**: Traditional styled bikes (Aeon MY150 Retro ABS)
+
+#### Electric Motorcycles
+- **Gogoro Series**: 1 Series, 2 Series, 3 Series, VIVA, SuperSport, CrossOver
+- **Aeon Electric**: Ai-1 Sport series, EV.C1, eReady series
+
+#### Engine Displacements
+- **50cc-100cc**: Entry-level scooters and motorcycles
+- **125cc-150cc**: Most popular segment in Taiwan
+- **200cc-300cc**: Mid-range motorcycles
+- **400cc+**: Large displacement bikes and adventure motorcycles
+
+## Usage Examples
 
 ### Loading the Database
 ```python
 import json
 
-# Load the complete database
-with open('complete_motorcycle_database.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+# Load the Taiwan motorcycle database
+with open('TaiwanMotor.json', 'r', encoding='utf-8') as f:
+    motorcycles = json.load(f)
 
-motorcycles = data['motorcycles']
-print(f"Total entries: {len(motorcycles)}")
-
-# Or load the Taiwan-specific database
-with open('taiwan_specific_motorcycles.json', 'r', encoding='utf-8') as f:
-    taiwan_data = json.load(f)
-
-taiwan_motorcycles = taiwan_data['motorcycles']
-print(f"Taiwan specific entries: {len(taiwan_motorcycles)}")
+print(f"Total motorcycles: {len(motorcycles)}")
 ```
 
-### Filtering Examples
-```python
-# Filter by brand
-honda_bikes = [m for m in motorcycles if m['brand'] == 'Honda']
-
-# Filter by displacement
-small_bikes = [m for m in motorcycles if '125cc' in m['engine']['displacement']]
-
-# Filter by type
-scooters = [m for m in motorcycles if 'Scooter' in m['type']]
-```
-
-### Running Examples
-To see database analysis and usage examples:
+### Data Validation
+Validate the database integrity:
 ```bash
-# For the comprehensive database
-python3 example_usage.py
+python3 validate_database.py
 
-# For the Taiwan-specific database
-python3 taiwan_specific_usage.py
-```
-
-### Taiwan-Specific Database
-The `taiwan_specific_motorcycles.json` contains curated data for 33 specific popular Taiwan motorcycle models:
-- **33 Popular Models**: Including SYM, Kymco, Yamaha, Honda, GOGORO, and local brands
-- **Chinese Names**: Original Chinese model names with English translations
-- **Taiwan Pricing**: Realistic Taiwan market pricing in NT$
-- **Accurate Specs**: Real-world engine specifications and features
-- **Diverse Categories**: Urban/Sport Scooters, Electric Vehicles, Sport Bikes, Naked Bikes, Maxi Scooters
-
-Example usage:
+### Filtering by Brand
 ```python
-# Load Taiwan-specific database
-with open('taiwan_specific_motorcycles.json', 'r', encoding='utf-8') as f:
-    taiwan_data = json.load(f)
+# Get all KYMCO motorcycles
+kymco_bikes = [bike for bike in motorcycles if bike['brand'] == 'KYMCO']
+print(f"KYMCO models: {len(kymco_bikes)}")
 
-# Find all SYM models
-sym_models = [m for m in taiwan_data['motorcycles'] if m['brand'] == 'SYM']
-print(f"SYM models: {len(sym_models)}")
-
-# Find budget motorcycles under NT$ 70,000
-budget_bikes = [m for m in taiwan_data['motorcycles'] 
-                if int(m['price_range'].split('NT$ ')[1].split(' -')[0].replace(',', '')) < 70000]
-
-# Find electric motorcycles
-electric_bikes = [m for m in taiwan_data['motorcycles'] 
-                  if m['engine']['displacement'] == 'Electric Motor'] 
-                if int(m['price_range'].split(' - ')[0].replace('NT$ ', '').replace(',', '')) <= 70000]
+# Get all electric motorcycles (Gogoro)
+electric_bikes = [bike for bike in motorcycles if bike['brand'] == 'Gogoro']
+print(f"Electric models: {len(electric_bikes)}")
 ```
 
-## Data Generation
+### Analyzing Brand Distribution
+```python
+from collections import Counter
 
-The comprehensive database was generated using `generate_motorcycle_database.py` which creates realistic motorcycle data by:
-- Combining real brand names with logical model variations
-- Using appropriate engine displacements for different vehicle types
-- Calculating realistic power outputs based on displacement
-- Generating Taiwan market pricing with brand premiums
-- Including model years from 2000-2025 (26 years of comprehensive data)
-- Adding realistic feature sets and variants
-- Implementing availability status based on model year (Available, Discontinued, Limited Availability, Used Market Only, Collector Item)
+# Count motorcycles by brand
+brand_counts = Counter(bike['brand'] for bike in motorcycles)
 
-## Brand Coverage
+print("Brand distribution:")
+for brand, count in brand_counts.most_common():
+    print(f"{brand}: {count} models")
+```
 
-- **Honda**: 2,980 entries
-- **Yamaha**: 3,023 entries  
-- **Kymco**: 2,519 entries
-- **SYM**: 2,531 entries
-- **Suzuki**: 2,290 entries
-- **Kawasaki**: 1,909 entries
-- **Aeon**: 1,250 entries
-- **Sanyang**: 1,300 entries
-- **CFMOTO**: 1,142 entries
-- **PGO**: 1,056 entries
+### Searching for Specific Models
+```python
+# Find models containing specific keywords
+def search_models(keyword):
+    return [bike for bike in motorcycles 
+            if keyword.lower() in bike['model'].lower()]
+
+# Search examples
+racing_models = search_models('racing')
+abs_models = search_models('abs')
+electric_models = search_models('electric')
+```
+
+### Model Name Analysis
+```python
+# Find models with Chinese names
+chinese_models = [bike for bike in motorcycles 
+                 if any('\u4e00' <= char <= '\u9fff' for char in bike['model'])]
+
+print(f"Models with Chinese names: {len(chinese_models)}")
+```
+
+## Notable Models in the Database
+
+### Popular Scooters
+- **KYMCO Racing S 150**: Performance scooter with ABS
+- **Yamaha FORCE 155**: Popular sport scooter
+- **PGO Tigra series**: Various displacement options (125cc-250cc)
+
+### Electric Vehicles
+- **Gogoro 2 Series**: Best-selling electric scooter in Taiwan
+- **Gogoro VIVA**: Entry-level electric scooter
+- **Aeon Ai-1 Sport**: Electric scooter with smart features
+
+### Sport Motorcycles
+- **Yamaha YZF-R15**: Entry-level sport bike
+- **Suzuki GSX-R series**: Performance sport bikes
+- **Yamaha MT series**: Naked sport motorcycles
+
+### Adventure/Touring
+- **Suzuki V-Strom series**: Adventure motorcycles (650cc-1050cc)
+- **KYMCO AK550**: Maxi scooter for long-distance riding
+
+## Data Characteristics
+
+### Naming Conventions
+- **Bilingual Models**: Many models include both English and Chinese names
+- **Technical Specifications**: Engine codes and technical details (e.g., "5ML", "1DK")
+- **Variants**: Multiple variants of popular models (ABS, TCS versions)
+
+### Market Coverage
+- **Entry Level**: 50cc-125cc scooters for urban commuting
+- **Mid-Range**: 150cc-250cc motorcycles for versatile use
+- **Premium**: 300cc+ motorcycles and electric vehicles
+- **Specialty**: Adventure, sport, and touring motorcycles
+
+## Data Analysis & Statistics
+
+### Language Distribution
+- **English names only**: 202 models (61.0%)
+- **Chinese names only**: 21 models (6.3%)
+- **Mixed language**: 108 models (32.6%)
+
+### Popular Features & Keywords
+- **ABS (Anti-lock Braking System)**: 24 models
+- **125cc engines**: 81 models (most popular displacement)
+- **150cc engines**: 41 models (second most popular)
+- **Racing variants**: 6 models
+- **Max/SMAX series**: 10 models
+
+### Electric Vehicle Coverage
+- **Total electric models**: 25 (7.5% of database)
+- **Gogoro**: 16 models (complete product line)
+- **Aeon electric**: 9 models (Ai series, EV.C1, eReady)
+
+## Usage Example Script
+
+Run the included analysis script to explore the database:
+```bash
+python3 analyze_database.py
+```
+
+This script provides:
+- Brand distribution analysis
+- Sample models by manufacturer
+- Language analysis (Chinese vs English names)
+- Electric vehicle identification
+- Popular keyword analysis
+
+## File Information
+- **File**: TaiwanMotor.json
+- **Format**: JSON array of motorcycle objects
+- **Encoding**: UTF-8 (supports Chinese characters)
+- **Size**: ~29KB
+- **Entries**: 331 motorcycles
+
+## Development and Contribution
+This database represents a comprehensive collection of motorcycles available in the Taiwan market. The data includes:
+- Major Taiwanese brands (KYMCO, PGO, Aeon)
+- Popular Japanese brands (Yamaha, Suzuki)
+- Leading electric vehicle manufacturer (Gogoro)
 
 ## License
-This data is provided for educational and research purposes.
+This data is provided for educational and research purposes. Perfect for:
+- Market research on Taiwan motorcycle industry
+- Academic studies on transportation in Taiwan
+- Development of motorcycle-related applications
+- Analysis of electric vehicle adoption in Asia
