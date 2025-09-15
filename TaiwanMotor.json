@@ -355,7 +355,5 @@
   { "brand": "KYMCO", "model": "鐵人 125", "year": null, "generation": null },
   { "brand": "KYMCO", "model": "王牌 135/135RS/135SS", "year": null, "generation": null },
   { "brand": "KYMCO", "model": "野火 125", "year": null, "generation": null },
-  { "brand": "KYMCO", "model": "新爽 100", "year": null,
+  { "brand": "KYMCO", "model": "新爽 100", "year": null, "generation": null }
 ]
-
-
