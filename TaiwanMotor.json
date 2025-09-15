@@ -1,106 +1,22 @@
 [
-  {
-    "brand": "Yamaha",
-    "model": "Cygnus",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Brera X 300",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Brera X 250",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "3D-350R",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "STR 300 GT",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "STR 300",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "STR 250",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "New CO-IN",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "MY150 Retro ABS",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "EV.C1",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Ai-1 Ultra Belt",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Ai-1 Sport ABS",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Ai-1 Sport+",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Ai-3 Lite",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Ai-3 More",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Ai-4 Ever",
-    "year": null,
-    "generation": null
-  },
-  {
-    "brand": "Aeon",
-    "model": "Coopop 01",
-    "year": null,
-    "generation": null
-  },
+  { "brand": "Aeon", "model": "Brera X 300", "year": null, "generation": null},
+{ "brand": "Aeon", "model": "Brera X 300", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Brera X 250", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "3D-350R", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "STR 300 GT", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "STR 300", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "STR 250", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "New CO-IN", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "MY150 Retro ABS", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "EV.C1", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Ai-1 Ultra Belt", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Ai-1 Sport ABS", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Ai-1 Sport+", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Ai-3 Lite", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Ai-3 More", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Ai-4 Ever", "year": null, "generation": null },
+  { "brand": "Aeon", "model": "Coopop 01", "year": null, "generation": null },
+  
   { "brand": "Suzuki", "model": "V-Strom 650 ABS", "year": null, "generation": null },
   { "brand": "Suzuki", "model": "GLADIUS 650 ABS", "year": null, "generation": null },
   { "brand": "Suzuki", "model": "SV 650 ABS", "year": null, "generation": null },
