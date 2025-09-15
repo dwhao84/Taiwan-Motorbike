@@ -236,7 +236,6 @@
   { "brand": "Yamaha", "model": "T MAX 530", "year": null, "generation": null },
   { "brand": "Yamaha", "model": "T MAX 560", "year": null, "generation": null },
 
-[
   { "brand": "Yamaha", "model": "TMAX 560", "year": null, "generation": null },
   { "brand": "Gogoro", "model": "1 Series", "year": "2015-2023 (停產)", "generation": null },
   { "brand": "Gogoro", "model": "S1 (原 S Performance / Gogoro S)", "year": "2016-2018", "generation": null },
@@ -254,5 +253,4 @@
   { "brand": "Gogoro", "model": "CrossOver", "year": "2023-", "generation": null },
   { "brand": "Gogoro", "model": "JEGO", "year": "2024-", "generation": null },
   { "brand": "Gogoro", "model": "Pulse", "year": "2024-", "generation": null }
-]
 ]
