@@ -1,6 +1,5 @@
 [
   { "brand": "Aeon", "model": "Brera X 300", "year": null, "generation": null},
-  { "brand": "Aeon", "model": "Brera X 300", "year": null, "generation": null },
   { "brand": "Aeon", "model": "Brera X 250", "year": null, "generation": null },
   { "brand": "Aeon", "model": "3D-350R", "year": null, "generation": null },
   { "brand": "Aeon", "model": "STR 300 GT", "year": null, "generation": null },
@@ -102,6 +101,8 @@
   { "brand": "Suzuki", "model": "新貴 50", "year": null, "generation": null },
   { "brand": "Suzuki", "model": "Let's 50 斜板 / 可動", "year": null, "generation": null },
   { "brand": "Suzuki", "model": "Sepia 50 斜板 / 可動", "year": null, "generation": null },
+
+  
   { "brand": "Yamaha", "model": "RS100", "year": null, "generation": null },
   { "brand": "Yamaha", "model": "RSZ", "year": null, "generation": null },
   { "brand": "Yamaha", "model": "RSZero", "year": null, "generation": null },
